@@ -71,7 +71,7 @@ export default function Card({ location }) {
           return (
             <Link
               key={category.id}
-              href={`/page/collectionproject/${category.title},${location}`}
+              href={`/categories/${category.title},${location}`}
             >
               <div className="mx-2 lg:mb-4">
                 <div className="relative group rounded-md overflow-hidden duration-300">
